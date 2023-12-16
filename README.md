@@ -24,7 +24,7 @@ pip install - r requirements.txt
 
 '''
 
-creae template.py
+create template.py
 
 '''bash
 
@@ -122,3 +122,27 @@ you can change value of param l1 and alpha in param.yaml and see diff
 dvc repro
 dvc metrics show
 dvc metrics diff
+
+no test the model
+install tox and pytest
+update tox
+make dir test-bash '''mkdir tests''' and create .py files in it
+
+create package by creating setup.py
+run bash '''pip install -e .''' to create src package
+
+bash'''
+cd ..
+import src
+cd MLOPS_P1/
+ls
+'''
+src egg info file will be created with all details
+
+
+
+bash'''
+python setup.py sdist bdist_wheel
+'''
+above will create shareable dist of whl and tar.gz which they can install in their own pc
+
