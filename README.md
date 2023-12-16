@@ -104,3 +104,21 @@ update dvc.yaml file till load_split_stage
 run dvc repro to run stages
 update readme
 push the changes yafter adding and commiting
+
+create train_and_evaluate.py to train and evaluate test data, generate scores and parametrics
+update dvc.yaml file for train and eval stage
+run dvc repro to run stages
+update readme
+push the changes yafter adding and commiting
+
+bash'''
+
+dvc metrics show
+dvc metrics diff
+
+bash'''
+
+you can change value of param l1 and alpha in param.yaml and see diff
+dvc repro
+dvc metrics show
+dvc metrics diff
