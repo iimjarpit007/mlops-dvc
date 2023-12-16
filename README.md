@@ -89,3 +89,12 @@ bash '''
 git add . && git commit -m "update params.yamland README.md" 
 git push origin main
 bash'''
+
+update get_data.py in src folder and create get and rea data method
+push the changes yafter adding and commiting
+
+create load_data.py to load data to raw folder
+update dvc.yaml file till load_stage
+run dvc repro to run stages
+update readme
+push the changes yafter adding and commiting
