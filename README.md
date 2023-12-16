@@ -77,6 +77,15 @@ Create github repository-->mlops-dvc
 bash'''
 git remote add origin https://github.com/iimjarpit007/mlops-dvc.git
 git branch -M main
-git push -u origin main
+git push origin main
 
 '''
+
+update params.yaml
+
+after every update run below two commands
+
+bash '''
+git add . && git commit -m "update params.yamland README.md" 
+git push origin main
+bash'''
