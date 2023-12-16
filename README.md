@@ -127,6 +127,8 @@ no test the model
 install tox and pytest
 update tox
 make dir test-bash '''mkdir tests''' and create .py files in it
+tox command''' tox'''
+tox command for rebuiding'''tox -r'''
 
 create package by creating setup.py
 run bash '''pip install -e .''' to create src package
@@ -140,9 +142,13 @@ ls
 src egg info file will be created with all details
 
 
+build your own package commands
 
 bash'''
 python setup.py sdist bdist_wheel
 '''
 above will create shareable dist of whl and tar.gz which they can install in their own pc
 
+setup command'''
+pip install -e .
+'''
