@@ -98,3 +98,9 @@ update dvc.yaml file till load_stage
 run dvc repro to run stages
 update readme
 push the changes yafter adding and commiting
+
+create split_data.py to split data to into train and test and save in processed folder
+update dvc.yaml file till load_split_stage
+run dvc repro to run stages
+update readme
+push the changes yafter adding and commiting
